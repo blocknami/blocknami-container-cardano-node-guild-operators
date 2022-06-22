@@ -118,7 +118,7 @@ services:
 The Cardano Node running inside a container can easily be accessed by other application containers.
   
   * [Docker container networking](https://docs.docker.com/engine/userguide/networking/)
-  * [Podman Basic Networking](https://github.com/containers/podman/blob/main/docs/tutorials/basic_networking.md)
+  * [Podman container networking](https://github.com/containers/podman/blob/main/docs/tutorials/basic_networking.md)
 
 Containers attached to the same network can communicate with each other using the container name as the hostname.
 
