@@ -1,17 +1,22 @@
-# Cardano Node package by Blocknami
+# Cardano Node with Guild Operator tools package by Blocknami
 ## What is Cardano Node
 
 > Cardano Node is an <Project License> and the core component that underpins the Cardano blockchain network.
 
 [Overview of Cardano Node](https://docs.cardano.org/core-concepts/cardano-node)
   
-Trademarks: This software listing is packaged by Blocknami. The respective trademarks mentioned int he offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
-
+## What is Guild operator tools
   
+> A Hub for community projects across Cardano ecosystem
+  
+[Cardano Community Guild Operators Repository](https://github.com/cardano-community/guild-operators)
+
+  Trademarks: This software listing is packaged by Blocknami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
+
 ## TL;DR
   
 ```console
-$ [docker|podman] run --name cardano-node blocknami/cardano-node:latest
+$ [docker|podman] run --name cardano-node blocknami/cardano-node-guild-operators:latest
 ```
 
 ## Why use Blocknami Images?
@@ -34,7 +39,7 @@ $ [docker|podman] run --name cardano-node blocknami/cardano-node:latest
 
 <!-- ## How to deploy Cardano Node in Kubernetes?
 
-Deploying Blocknami applications as Helm Charts is the easiest way to get started with our applications on Kubernetes. Read more about the installation in the [Blocknami Cardano Node Chart GitHub repository](https://github.com/blocknami/charts/tree/main/blocknami/cardano-node).
+Deploying Blocknami applications as Helm Charts is the easiest way to get started with our applications on Kubernetes. Read more about the installation in the [Blocknami Cardano Node Chart GitHub repository](https://github.com/blocknami/charts/tree/main/blocknami/cardano-node-guild-operators).
 
 Blocknami containers can be used with [Kubeapps](https://kubeapps.dev/) for deployment and management of Helm Charts in clusters.  -->
 
@@ -51,40 +56,40 @@ Non-root container images add an extra layer of security and are generally recom
 <!-- Learn more about the Blocknami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/). --->
 
 
-* [`1.34`, `1.34-alpine-3`, `1.34`, `1.34.1`, `1.34.1-alpine-3-r1`, `latest` (1/alpine-3/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node/blob/1.34.1-alpine-3-r1/1/alpine-3/Containerfile)
-* [`1.34`, `1.34-debian-11`, `1.34`, `1.34.1`, `1.34.1-debian-11-r1`, `latest` (1/debian-11/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node/blob/1.34.1-debian-11-r1/1/debian-11/Containerfile)
-* [`1.34`, `1.34-ubi-9`, `1.34`, `1.34.1`, `1.34.1-ubi-9-r1`, `latest` (1/ubi-9/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node/blob/1.34.1-ubi-9-r1/1/ubi-9/Containerfile)
+* [`1.34`, `1.34-alpine-3`, `1.34`, `1.34.1`, `1.34.1-alpine-3-r1`, `latest` (1/alpine-3/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators/blob/1.34.1-alpine-3-r1/1/alpine-3/Containerfile)
+* [`1.34`, `1.34-debian-11`, `1.34`, `1.34.1`, `1.34.1-debian-11-r1`, `latest` (1/debian-11/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators/blob/1.34.1-debian-11-r1/1/debian-11/Containerfile)
+* [`1.34`, `1.34-ubi-9`, `1.34`, `1.34.1`, `1.34.1-ubi-9-r1`, `latest` (1/ubi-9/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators/blob/1.34.1-ubi-9-r1/1/ubi-9/Containerfile)
 
 
-Subscribe to project updates by watching the [blocknami/cardano-node GitHub repo](https://github.com/blocknami/blocknami-container-cardano-node).
+Subscribe to project updates by watching the [blocknami/cardano-node-guild-operators GitHub repo](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators).
 
 ## Get this image
 
 The recommended way to get the Blocknami Cardano Node container image is to pull the prebuilt image from on of the following registries:
-  * [Docker Hub Registry](https://hub.docker.com/r/blocknami/cardano-node).
-  * [Red Hat Quay.io Registry](https://quay.io/repository/blocknami/cardano-node)
+  * [Docker Hub Registry](https://hub.docker.com/r/blocknami/cardano-node-guild-operators).
+  * [Red Hat Quay.io Registry](https://quay.io/repository/blocknami/cardano-node-guild-operators)
 
   
 Using docker or podman cli with Docker Hub:
 ```console
-$ [docker|podman] pull docker.io/blocknami/cardano-node:latest
+$ [docker|podman] pull docker.io/blocknami/cardano-node-guild-operators:latest
 ```
 
 Using docker or podman cli to pull from a specific registry:
 ```console
-$ [docker|podman] pull quay.io/blocknami/cardano-node:latest
+$ [docker|podman] pull quay.io/blocknami/cardano-node-guild-operators:latest
 ```
 
-To use a specific version, you can pull a versioned tag. You can view the [list of available versions](https://hub.docker.com/r/blocknami/cardano-node/tags/) in the Docker Hub Registry.
+To use a specific version, you can pull a versioned tag. You can view the [list of available versions](https://hub.docker.com/r/blocknami/cardano-node-guild-operators/tags/) in the Docker Hub Registry.
 
 ```console
-$ [docker|podman] pull docker.io/blocknami/cardano-node:[TAG]
+$ [docker|podman] pull docker.io/blocknami/cardano-node-guild-operators:[TAG]
 ```
 
 If you wish, you can also build the image yourself.
 
 ```console
-$ [docker|podman] build -t blocknami/cardano-node:latest 'https://github.com/blocknami/blocknami-container-cardano-node.git#master:1/ubi-9'
+$ [docker|podman] build -t blocknami/cardano-node-guild-operators:latest 'https://github.com/blocknami/blocknami-container-cardano-node-guild-operators.git#master:1/ubi-9'
 ```
 
 ## Persisting the blockchain database
@@ -96,7 +101,7 @@ For persistence you should mount a directory at the `/blocknami/cardano-node` pa
 ```console
 $ docker run \
     -v /path/to/cardano-node-db-persistence:/blocknami/cardano-node \
-    blocknami/cardano-node:latest
+    blocknami/cardano-node-guild-operators:latest
 ```
 
 <!--- or by modifying the [`docker-compose.yml`](https://github.com/bitnami/bitnami-docker-postgresql/blob/master/docker-compose.yml) file present in this repository:
@@ -139,7 +144,7 @@ Use the `--network app-tier` argument to the `docker run` command to attach the 
 ```console
 $ [docker|podman] run -d --name cardano-node \
     --network app-tier \
-    blocknami/cardano-node:latest
+    blocknami/cardano-node-guild-operators:latest
 ```
 
 #### Step 3: Launch your PostgreSQL client instance
@@ -149,7 +154,7 @@ Finally we create a new container instance to launch the wallet and connect to t
 ```console
 $ [docker|podman] run -it --rm \
     --network app-tier \
-    blocknami/cardano-node:latest cardano-node -h cardano-node -U cardano
+    blocknami/cardano-node-guild-operators:latest cardano-node -h cardano-node -U cardano
 ```
   
 <!---
@@ -449,7 +454,7 @@ services:
       - POSTGRESQL_SYNCHRONOUS_COMMIT_MODE=on
       - POSTGRESQL_NUM_SYNCHRONOUS_REPLICAS=1
     volumes:
-      - '/path/to/cardano-node-db-persistence:/blocknami/cardano-node'
+      - '/path/to/cardano-node-db-persistence:/blocknami/cardano-node-guild-operators'
   postgresql-slave:
     image: 'bitnami/postgresql:latest'
     ports:
@@ -769,10 +774,10 @@ Bitnami provides up-to-date versions of Cardano Node, including security patches
 #### Step 1: Get the updated image
 
 ```console
-$ docker pull blocknami/cardano-node:latest
+$ docker pull blocknami/cardano-node-guild-operators:latest
 ```
 
-or if you're using Docker Compose, update the value of the image property to `blocknami/cardano-node:latest`.
+or if you're using Docker Compose, update the value of the image property to `blocknami/cardano-node-guild-operators:latest`.
 
 #### Step 2: Stop and backup the currently running container
 
@@ -827,11 +832,11 @@ None
 
 ## Contributing
 
-We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/blocknami/blocknami-container-cardano-node/issues), or submit a [pull request](https://github.com/blocknami/blocknami-container-cardano-node/pulls) with your contribution.
+We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators/issues), or submit a [pull request](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators/pulls) with your contribution.
 
 ## Issues
 
-If you encountered a problem running this container, you can file an [issue](https://github.com/blocknami/blocknami-container-cardano-node/issues/new). For us to provide better support, be sure to include the following information in your issue:
+If you encountered a problem running this container, you can file an [issue](https://github.com/blocknami/blocknami-container-cardano-node-guild-operators/issues/new). For us to provide better support, be sure to include the following information in your issue:
 
 - Host OS and version
 - Docker version (`docker version`)
