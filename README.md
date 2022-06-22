@@ -11,7 +11,7 @@ Trademarks: This software listing is packaged by Blocknami. The respective trade
 ## TL;DR
   
 ```console
-  $ [docker|podman] run --name cardano-node blocknami/cardano-node:latest
+$ [docker|podman] run --name cardano-node blocknami/cardano-node:latest
 ```
 
 ## Why use Blocknami Images?
