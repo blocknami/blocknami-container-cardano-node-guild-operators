@@ -115,9 +115,9 @@ services:
 
 ## Connecting to other containers
 
-Using Docker:
-  * [Docker container networking](https://docs.docker.com/engine/userguide/networking/), a PostgreSQL server running inside a container can easily be accessed by your application containers.
-Using Podman:
+The Cardano Node running inside a container can easily be accessed by other application containers.
+  
+  * [Docker container networking](https://docs.docker.com/engine/userguide/networking/)
   * [Podman Basic Networking](https://github.com/containers/podman/blob/main/docs/tutorials/basic_networking.md)
 
 Containers attached to the same network can communicate with each other using the container name as the hostname.
@@ -151,7 +151,8 @@ $ [docker|podman] run -it --rm \
     --network app-tier \
     blocknami/cardano-node:latest cardano-node -h cardano-node -U cardano
 ```
-
+  
+<!---
 ### Using Docker Compose
 
 When not specified, Docker Compose automatically sets up a new network and attaches all deployed services to that network. However, we will explicitly define a new `bridge` network named `app-tier`. In this example we assume that you want to connect to the PostgreSQL server from your own custom application image which is identified in the following snippet by the service name `myapp`.
@@ -199,7 +200,7 @@ Passing extra command-line flags to the cardano-node service command is possible
 
 - `NODE_EXTRA_FLAGS`: Flags to be appended to the `cardano-node` startup command. No defaults
 
-<!---
+
 ### Initializing a new instance
 
 When the container is executed for the first time, it will execute the files with extensions `.sh`, `.sql` and `.sql.gz` located at `/docker-entrypoint-initdb.d`.
