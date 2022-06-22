@@ -51,9 +51,9 @@ Non-root container images add an extra layer of security and are generally recom
 <!-- Learn more about the Blocknami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/). --->
 
 
-* [`1.34`, `1.34-alpine-3`, `1.34`, `1.34.1`, `1.34.1-alpine-3-r1`, `latest` (1/alpine-3/Containerfile)](https://github.com/blocknami/blocknami-cardano-node/blob/1.34.1-alpine-3-r1/1/alpine-3/Containerfile)
-* [`1.34`, `1.34-debian-11`, `1.34`, `1.34.1`, `1.34.1-debian-11-r1`, `latest` (1/debian-11/Containerfile)](https://github.com/blocknami/blocknami-cardano-node/blob/1.34.1-debian-11-r1/1/debian-11/Containerfile)
-* [`1.34`, `1.34-ubi-9`, `1.34`, `1.34.1`, `1.34.1-ubi-9-r1`, `latest` (1/ubi-9/Containerfile)](https://github.com/blocknami/blocknami-cardano-node/blob/1.34.1-ubi-9-r1/1/ubi-9/Containerfile)
+* [`1.34`, `1.34-alpine-3`, `1.34`, `1.34.1`, `1.34.1-alpine-3-r1`, `latest` (1/alpine-3/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node/blob/1.34.1-alpine-3-r1/1/alpine-3/Containerfile)
+* [`1.34`, `1.34-debian-11`, `1.34`, `1.34.1`, `1.34.1-debian-11-r1`, `latest` (1/debian-11/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node/blob/1.34.1-debian-11-r1/1/debian-11/Containerfile)
+* [`1.34`, `1.34-ubi-9`, `1.34`, `1.34.1`, `1.34.1-ubi-9-r1`, `latest` (1/ubi-9/Containerfile)](https://github.com/blocknami/blocknami-container-cardano-node/blob/1.34.1-ubi-9-r1/1/ubi-9/Containerfile)
 
 
 Subscribe to project updates by watching the [blocknami/cardano-node GitHub repo](https://github.com/blocknami/blocknami-container-cardano-node).
