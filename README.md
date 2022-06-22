@@ -72,7 +72,7 @@ $ [docker|podman] pull docker.io/blocknami/cardano-node:latest
 
 Using docker or podman cli to pull from a specific registry:
 ```console
-  $ [docker|podman] pull quay.io/blocknami/cardano-node:latest
+$ [docker|podman] pull quay.io/blocknami/cardano-node:latest
 ```
 
 To use a specific version, you can pull a versioned tag. You can view the [list of available versions](https://hub.docker.com/r/blocknami/cardano-node/tags/) in the Docker Hub Registry.
@@ -84,10 +84,10 @@ $ [docker|podman] pull docker.io/blocknami/cardano-node:[TAG]
 If you wish, you can also build the image yourself.
 
 ```console
-$ docker build -t blocknami/cardano-node:latest 'https://github.com/blocknami/blocknami-container-cardano-node.git#master:1/ubi-9'
+$ [docker|podman] build -t blocknami/cardano-node:latest 'https://github.com/blocknami/blocknami-container-cardano-node.git#master:1/ubi-9'
 ```
 
-## Persisting your database
+## Persisting the blockchain database
 
 If you remove the container all your data and configurations will be lost, and the next time you run the image the blockchain data will be re-syncrhonized. To avoid the loss of data and re-synchronization, you should mount a volume that will persist even after the container is removed.
 
